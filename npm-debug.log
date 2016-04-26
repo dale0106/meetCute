@@ -1,0 +1,238 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ios-deploy' ]
+2 info using npm@3.8.8
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData ios-deploy
+8 silly fetchNamedPackageData ios-deploy
+9 silly mapToRegistry name ios-deploy
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'ios-deploy',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'ios-deploy',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+14 verbose request uri https://registry.npmjs.org/ios-deploy
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:37:25 PM
+17 verbose request id 7c14b1b464d41274
+18 http request GET https://registry.npmjs.org/ios-deploy
+19 http 200 https://registry.npmjs.org/ios-deploy
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"81NX9HBLREKB5KSUAXMQ0IXPI"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '37272',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Tue, 26 Apr 2016 17:37:25 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '280',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-jfk1029-JFK',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1461692245.498721,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"81NX9HBLREKB5KSUAXMQ0IXPI"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '37272',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Tue, 26 Apr 2016 17:37:25 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '280',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-jfk1029-JFK',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1461692245.498721,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving ios-deploy to /Users/crisdalessio/.npm/registry.npmjs.org/ios-deploy/.cache.json
+23 verbose correctMkdir /Users/crisdalessio/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule ios-deploy@1.8.6 checking installable status
+37 silly cache add args [ 'ios-deploy', null ]
+38 verbose cache add spec ios-deploy
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'ios-deploy',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'ios-deploy',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed ios-deploy@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for ios-deploy
+42 info addNameTag [ 'ios-deploy', 'latest' ]
+43 silly mapToRegistry name ios-deploy
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'ios-deploy',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'ios-deploy',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+48 verbose addNameTag registry:https://registry.npmjs.org/ios-deploy not in flight; fetching
+49 verbose get https://registry.npmjs.org/ios-deploy not expired, no request
+50 silly addNameTag next cb for ios-deploy with tag latest
+51 silly addNamed ios-deploy@1.8.6
+52 verbose addNamed "1.8.6" is a plain semver version for ios-deploy
+53 silly mapToRegistry name ios-deploy
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'ios-deploy',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'ios-deploy',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+58 verbose addRemoteTarball https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.6.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.6.tgz',
+59 verbose addRemoteTarball   'abb0b5132e7e6c89d1f521ba7c81c44eec54d4f5' ]
+60 info retry fetch attempt 1 at 1:37:25 PM
+61 info attempt registry request try #1 at 1:37:25 PM
+62 http fetch GET https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.6.tgz
+63 http fetch 200 https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.6.tgz
+64 silly fetchAndShaCheck shasum abb0b5132e7e6c89d1f521ba7c81c44eec54d4f5
+65 verbose addTmpTarball /tmp/npm-16582-93999535/registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.6.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for ios-deploy@1.8.6
+67 verbose correctMkdir /Users/crisdalessio/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd ios-deploy@1.8.6
+69 verbose afterAdd /Users/crisdalessio/.npm/ios-deploy/1.8.6/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/crisdalessio/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/crisdalessio/.npm/ios-deploy/1.8.6/package/package.json written
+72 silly loadAllDepsIntoIdealTree Finishing
+73 silly idealTree:prePrune lib
+73 silly idealTree:prePrune └── ios-deploy@1.8.6
+74 silly loadIdealTree Finishing
+75 silly currentTree lib
+76 silly idealTree lib
+76 silly idealTree └── ios-deploy@1.8.6
+77 silly generateActionsToTake Starting
+78 silly install generateActionsToTake
+79 silly generateActionsToTake Finishing
+80 silly diffTrees action count 1
+81 silly diffTrees add ios-deploy@1.8.6
+82 silly decomposeActions action count 8
+83 silly decomposeActions fetch ios-deploy@1.8.6
+84 silly decomposeActions extract ios-deploy@1.8.6
+85 silly decomposeActions test ios-deploy@1.8.6
+86 silly decomposeActions preinstall ios-deploy@1.8.6
+87 silly decomposeActions build ios-deploy@1.8.6
+88 silly decomposeActions install ios-deploy@1.8.6
+89 silly decomposeActions postinstall ios-deploy@1.8.6
+90 silly decomposeActions finalize ios-deploy@1.8.6
+91 silly executeActions Starting
+92 silly install executeActions
+93 silly doSerial global-install 0
+94 silly doParallel fetch 1
+95 verbose correctMkdir /Users/crisdalessio/.npm/_locks correctMkdir not in flight; initializing
+96 verbose lock using /Users/crisdalessio/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+97 silly doParallel extract 1
+98 silly extract ios-deploy@1.8.6
+99 verbose unbuild lib/node_modules/.staging/ios-deploy-298c9491
+100 silly gentlyRm /usr/local/lib/node_modules/.staging/ios-deploy-298c9491 is being purged from base /usr/local
+101 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ios-deploy-298c9491
+102 verbose tar unpack /Users/crisdalessio/.npm/ios-deploy/1.8.6/package.tgz
+103 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ios-deploy-298c9491
+104 silly gentlyRm /usr/local/lib/node_modules/.staging/ios-deploy-298c9491 is being purged
+105 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ios-deploy-298c9491
+106 silly gunzTarPerm modes [ '755', '644' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry LICENSE
+111 silly gunzTarPerm extractEntry CONTRIBUTING.md
+112 silly gunzTarPerm extractEntry demo/.npmignore
+113 silly gunzTarPerm extractEntry demo/Entitlements.plist
+114 silly gunzTarPerm extractEntry demo/Info.plist
+115 silly gunzTarPerm extractEntry demo/Makefile
+116 silly gunzTarPerm extractEntry demo/ResourceRules.plist
+117 silly gunzTarPerm extractEntry demo/demo.c
+118 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/project.pbxproj
+119 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/project.xcworkspace/xcuserdata/shaz.xcuserdatad/UserInterfaceState.xcuserstate
+120 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcshareddata/xcschemes/ios-deploy-tests.xcscheme
+121 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcuserdata/shaz.xcuserdatad/xcschemes/ios-deploy-lib.xcscheme
+122 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcuserdata/shaz.xcuserdatad/xcschemes/ios-deploy.xcscheme
+123 silly gunzTarPerm extractEntry ios-deploy.xcodeproj/xcuserdata/shaz.xcuserdatad/xcschemes/xcschememanagement.plist
+124 silly gunzTarPerm extractEntry src/ios-deploy/MobileDevice.h
+125 silly gunzTarPerm extractEntry src/ios-deploy/errors.h
+126 silly gunzTarPerm extractEntry src/ios-deploy/ios-deploy.m
+127 silly gunzTarPerm extractEntry src/ios-deploy/version.h
+128 silly gunzTarPerm extractEntry src/ios-deploy-lib/libios_deploy.h
+129 silly gunzTarPerm extractEntry src/ios-deploy-lib/libios_deploy.m
+130 silly gunzTarPerm extractEntry src/ios-deploy-tests/Info.plist
+131 silly gunzTarPerm extractEntry src/ios-deploy-tests/ios_deploy_tests.m
+132 silly gunzTarPerm extractEntry src/scripts/check_reqs.js
+133 silly gunzTarPerm extractEntry src/scripts/lldb.py
+134 silly gentlyRm /usr/local/lib/node_modules/.staging/ios-deploy-298c9491/node_modules is being purged
+135 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ios-deploy-298c9491/node_modules
+136 silly doParallel preinstall 1
+137 silly preinstall ios-deploy@1.8.6 /usr/local/lib/node_modules/.staging/ios-deploy-298c9491
+138 info lifecycle ios-deploy@1.8.6~preinstall: ios-deploy@1.8.6
+139 warn lifecycle ios-deploy@1.8.6~preinstall: cannot run in wd %s %s (wd=%s) ios-deploy@1.8.6 ./src/scripts/check_reqs.js && xcodebuild /usr/local/lib/node_modules/.staging/ios-deploy-298c9491
+140 silly doReverseSerial remove 0
+141 silly doSerial move 0
+142 silly doSerial finalize 1
+143 silly finalize /usr/local/lib/node_modules/ios-deploy
+144 silly doSerial build 1
+145 silly build ios-deploy@1.8.6
+146 info linkStuff ios-deploy@1.8.6
+147 silly linkStuff ios-deploy@1.8.6 has /usr/local/lib/node_modules as its parent node_modules
+148 silly linkStuff ios-deploy@1.8.6 is part of a global install
+149 silly linkStuff ios-deploy@1.8.6 is installed into a global node_modules
+150 silly linkStuff ios-deploy@1.8.6 is installed into the top-level global node_modules
+151 verbose linkBins ios-deploy@1.8.6
+152 verbose link bins [ { 'ios-deploy': './build/Release/ios-deploy' },
+152 verbose link bins   '/usr/local/bin',
+152 verbose link bins   true ]
+153 verbose linkMans ios-deploy@1.8.6
+154 verbose unlock done using /Users/crisdalessio/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+155 silly rollbackFailedOptional Starting
+156 silly rollbackFailedOptional Finishing
+157 silly runTopLevelLifecycles Starting
+158 silly runTopLevelLifecycles Finishing
+159 silly install printInstalled
+160 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/ios-deploy/build/Release/ios-deploy'
+160 verbose stack     at Error (native)
+161 verbose cwd /Applications/MAMP/htdocs/MAD9023/meetCuteFinal/meetCute
+162 error Darwin 15.4.0
+163 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "ios-deploy"
+164 error node v5.10.1
+165 error npm  v3.8.8
+166 error path /usr/local/lib/node_modules/ios-deploy/build/Release/ios-deploy
+167 error code ENOENT
+168 error errno -2
+169 error syscall chmod
+170 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/ios-deploy/build/Release/ios-deploy'
+171 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/ios-deploy/build/Release/ios-deploy'
+171 error enoent This is most likely not a problem with npm itself
+171 error enoent and is related to npm not being able to find a file.
+172 verbose exit [ -2, true ]
